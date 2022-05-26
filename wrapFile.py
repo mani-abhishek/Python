@@ -5,12 +5,12 @@ import subprocess
 import os
 
 
-
+# create a directory
 def create_dir(new_path):
     if not os.path.exists(new_path):
         os.mkdir(new_path)
 
-
+# move file into created folder
 def clean(old_path,file,new_path):
     create_dir(new_path)
     old_path = os.path.join(r"C:\Users\abhis\Downloads", file)
@@ -22,8 +22,8 @@ def clean(old_path,file,new_path):
 
 
 
-
-def fun2():
+# search file according to it's type
+def main():
     # return all files as a list
     for file in os.listdir(r'C:\Users\abhis\Downloads'):
         
@@ -71,4 +71,5 @@ def fun2():
 
 
 
-fun2()
+if __name__ =="__main__":
+    main()
