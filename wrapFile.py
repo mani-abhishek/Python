@@ -62,6 +62,11 @@ def main():
         if file.endswith(".txt"):
             new_path = r"C:\Users\abhis\Downloads\TXTFolder"
             clean(r"C:\Users\abhis\Downloads",file,new_path)
+        
+        if file.endswith(".exe"):
+            new_path = r"C:\Users\abhis\Downloads\Setup"
+            clean(r"C:\Users\abhis\Downloads",file,new_path)
+
 
 
 
