@@ -24,5 +24,5 @@ len(s)
 t = zlib.compress(s)
 len(t)
 zlib.decompress(t)
-b'witch which has which witches wrist watch'
+
 zlib.crc32(s)
