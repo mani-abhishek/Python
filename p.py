@@ -6,6 +6,7 @@ with urlopen('http://worldtimeapi.org/api/timezone/etc/UTC.txt') as response:
             print(line.rstrip())         # Remove trailing newline
 
 
+
 import smtplib
 server = smtplib.SMTP('localhost')
 server.sendmail('soothsayer@example.org', 'jcaesar@example.org',
@@ -14,3 +15,14 @@ From: soothsayer@example.org
 Beware the Ides of March.
 """)
 server.quit()
+
+
+
+import zlib
+s = b'witch which has which witches wrist watch'
+len(s)
+t = zlib.compress(s)
+len(t)
+zlib.decompress(t)
+b'witch which has which witches wrist watch'
+zlib.crc32(s)
