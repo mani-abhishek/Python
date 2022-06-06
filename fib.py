@@ -3,7 +3,7 @@ def recur_fibo(n):
        return n  
    else:  
        return(recur_fibo(n-1) + recur_fibo(n-2))  
-# take input from the user  
+
 nterms = int(input("How many terms? "))  
  
 if nterms <= 0:  
