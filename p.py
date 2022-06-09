@@ -24,5 +24,4 @@ len(s)
 t = zlib.compress(s)
 len(t)
 zlib.decompress(t)
-
 zlib.crc32(s)
