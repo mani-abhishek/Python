@@ -6,7 +6,7 @@ def recur_fibo(n):
 
 nterms = int(input("How many terms? "))  
  
-if nterms <= 0:   
+if nterms <= 0:      
    print("Plese enter a positive integer")  
 else:  
    print("Fibonacci sequence:")  
