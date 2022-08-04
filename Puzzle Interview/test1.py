@@ -30,8 +30,7 @@ def exceptionalCase(p):
 def findPoison(bottle,prisoner):
 
     printprisoner(prisoner)
-    ans =[]
-    t = []
+    
     for b in range(2,bottle+1):
        temp  = DecimalToBinary(b)
        
